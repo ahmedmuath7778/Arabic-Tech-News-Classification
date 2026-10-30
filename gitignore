@@ -1,0 +1,29 @@
+# Python cache
+pycache/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# Secrets
+.env
+*.key
+credentials.json
+
+# Model checkpoints and large model files
+checkpoints/
+runs/
+wandb/
+
+# Dataset files
+data/
+datasets/
+*.csv
+*.jsonl
+
+# Local model outputs
+outputs/
